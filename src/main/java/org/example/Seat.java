@@ -19,7 +19,7 @@ public class Seat {
         this.isOccupied = occupied;
     }
 
-    String SeatStatus()
+    String seatStatus()
     {
         return ("Number: " + number + " NumberRow: " + numberRow + " Occupied: " + isOccupied);
     }
