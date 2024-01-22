@@ -1,6 +1,6 @@
 package org.example;
 
-import java.io.PrintStream;
+import static org.example.MinutesToSeconds.convert;
 
 public class Main {
 
@@ -18,7 +18,7 @@ public class Main {
     Movie movieNew = new Movie("The Green Mile", "Frank", "Darabont", 181, 1999);
     movieNew.movieInfo();
     */
-
+    /*
     TicketSeller employee = new TicketSeller("Tadeusz", "Kowalski",1993);
     Manager manager = new Manager("Szymon", "Kowalski",2000);
 
@@ -34,6 +34,10 @@ public class Main {
 
     manager.setBonus(800);
     System.out.println("Manager salary + new bonus: " + manager.calculateMonthlySalary());
+    */
+
+        int minutes = convert(10);
+        System.out.println(minutes);
 
     }
 }
