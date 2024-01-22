@@ -17,7 +17,7 @@ public class Movie {
         this.productionYear = productionYear;
     }
 
-    public void MovieInfo()
+    public void movieInfo()
     {
         System.out.println("Title: " + title);
         System.out.println("Director: " + nameDirector + " " + surnameDirector);
