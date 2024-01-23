@@ -34,10 +34,17 @@ public class Main {
 
     manager.setBonus(800);
     System.out.println("Manager salary + new bonus: " + manager.calculateMonthlySalary());
-    */
+
 
         int minutes = convert(10);
         System.out.println(minutes);
+    */
+
+        boolean pitagoras = Pitagoras.isRightTriangle(3,4,5);
+        System.out.println(pitagoras);
+
+        boolean pitagorasError = Pitagoras.isRightTriangle(0,4,5);
+        System.out.println(pitagorasError);
 
     }
 }
